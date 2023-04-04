@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Dosis:wght@700&family=Handlee&family=Montserrat:wght@500;600;700&family=Nunito&family=Rampart+One&family=Roboto&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* common css for all  */
+a,ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+:root {
+	--brand: #8C52FF;
+	--white:#fff;
+	--border:1px solid #8C52FF;
+	
+  }
+  
+
+body{
+	/* font-family: 'DM Sans', sans-serif;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Handlee', cursive; */
+
+    font-family: 'Montserrat', sans-serif;
+
+    /* font-family: 'Nunito', sans-serif;
+
+    font-family: 'Rampart One', cursive;
+
+    font-family: 'Work Sans', sans-serif; */
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Handlee', cursive;
+	/* display: inline-block; */
+	padding: 0;
+	margin: 0;
+
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* header{
+	background-image: url(img/body.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	margin-bottom: 0;
+} */
+
+.menu{
+	background-color: rgba(0, 0, 0,.2);
+	height: 100px;
+	position: sticky;
+	top: 0px;
+}
+
+.nav-item{
+	background-color: rgba(140, 82, 255,.5);
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+.nav-link{
+	color: aliceblue;
+}
+
+/* banner section start  */
+.banner-section{
+	/* background-color: rgba(217, 142, 95,.3); */
+	background-color: rgba(240, 190, 169,.5);
+}
+
+
+
+.banner-contant:hover h1{
+	color: rgba(140, 82, 255,.8);
+	transition-delay: 1s;
+}
+
+.banner-btn{
+	color: #8F72C9;
+	border: 1px solid #8C52FF;
+}
+
+.banner-btn:hover{
+	background: #8C52FF;
+	color: white;
+}
+.banner-icon i{
+	color: #8C52FF;
+}
+
+.zoom {
+	padding: 10px;
+	transition: transform .5s; /* Animation */
+  }
+  
+  .zoom:hover {
+	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+/* banner section end  */
+/* Service-section start */
+.Service-section {
+	background-color: #F8F4F0;
+	justify-content: center;
+	
+	
+}
+
+.Service-section-contant{
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+}
+/* Service-section start */
+/* about-section start  */
+.about-btn{
+	background-color: #fff;
+	color:#8C52FF;
+	border: 1px solid #8C52FF;
+}
+
+.about-btn:hover{
+	background-color: #8C52FF;
+	color: white;
+}
+/* about-section end  */
+/* why-us-section start  */
+.why-us-section{
+	background-color:#F8F4F0; 
+}
+/* why-us-section end  */
+
+/* form-section start  */
+.form-control{
+	width: 50%;
+}
+
+.send{
+	background-color: var(--brand);
+	color:var(--white) ;
+	border: var(--border);
+}
+
+.send:hover{
+	background-color: var(--white);
+	color:var(--brand) ;
+	
+}
+/* form-section end  */
+
+/* counter-section start  */
+.counter-section{
+	height: 300px;
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/counter.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+/* counter-section start  */
+/* footer start  */
+.footer-section{
+	background-color: #F8F4F0;
+}
+
+.footer-section .copy-right:hover{
+	color:#8C52FF ;
+}
+/* footer end  */
